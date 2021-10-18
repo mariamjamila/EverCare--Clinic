@@ -1,0 +1,23 @@
+.service{
+    background-color: rgb(28, 127, 255);
+
+     margin: 10px;
+     border-radius: 20px; 
+     padding: 20px;
+     overflow: hidden;
+     color: rgb(233, 233, 233);
+
+}
+
+.service img{
+    width: 100%;
+    border-radius: 99em;
+
+}
+
+.service button{
+padding: 10px;
+margin: 10px;
+width: 200px;
+border-radius: 10px;
+}
