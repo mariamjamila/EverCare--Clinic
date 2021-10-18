@@ -9,10 +9,10 @@ import Services from './Services/Services';
 function Home() {
     return (
         <div id="home">
-          
+          <Banner></Banner>
           <h2>Welcome To Ever Care</h2>
          <Services></Services>
-           <Centers></Centers> 
+           
         </div>
     );
 }

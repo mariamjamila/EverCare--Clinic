@@ -1,53 +1,53 @@
 [
-    {
-        "id": 1,
-        "name": " Dr. Ajit Kumar",
-        "Specialization": "Pulmonery Medicine",
-        "profile":"Veranda was born and raised in Jakarta, Indonesia. He graduated from the University of Singapore, where he completed is bachelor’s degree. His admission to the State Bar of California took place on the 25th of November, 1985.",
-         "email": "  veranda@hospitalplus.com ",
-         "image":"http://demo2.themewarrior.com/hospitalplus/wp-content/uploads/sites/22/2015/02/Depositphotos_25727021_original-400x400.jpg"
-    },
-    {
-        "id": 2,
-        "name": " Dr.Janne Wilson",
-        "Specialization": "Orthopedic Medicine",
-        "Profile":"Veranda was born and raised in Jakarta, Indonesia. He graduated from the University of Singapore, where he completed is bachelor’s degree. His admission to the State Bar of California took place on the 25th of November, 1985.",
-         "email": "  veranda@hospitalplus.com ",
-         "image":"http://demo2.themewarrior.com/hospitalplus/wp-content/uploads/sites/22/2015/02/Depositphotos_13909652_original-400x400.jpg"
-    },
-    {
-        "id": 3,
-        "name": " Dr. Adaline Becka",
-        "Specialization": " Medicine",
-        "Profile" :"Veranda was born and raised in Jakarta, Indonesia. He graduated from the University of Singapore, where he completed is bachelor’s degree. His admission to the State Bar of California took place on the 25th of November, 1985.",
-         "email": "  veranda@hospitalplus.com ",
-         "image":"http://demo2.themewarrior.com/hospitalplus/wp-content/uploads/sites/22/2015/02/Depositphotos_24201329_original-400x400.jpg"
-    }, 
-    {
-        "id": 4,
-        "name": " Dr. Alicia Homes",
-        "Specialization": "Neorology",
-        "profile": "Veranda was born and raised in Jakarta, Indonesia. He graduated from the University of Singapore, where he completed is bachelor’s degree. His admission to the State Bar of California took place on the 25th of November, 1985.",
-         "email": "  veranda@hospitalplus.com ",
-         "image":"http://demo2.themewarrior.com/hospitalplus/wp-content/uploads/sites/22/2015/02/Depositphotos_60575315_original-400x400.jpg"
-    }, 
+  {
+    "id": 1,
+    "name": " Dr. Ajit Kumar",
+    "Specialization": "Pulmonery Medicine",
+    "profile": "Veranda was born and raised in Jakarta, Indonesia. He graduated from the University of Singapore, where he completed is bachelor’s degree. His admission to the State Bar of California took place on the 25th of November, 1985.",
+    "email": "  veranda@hospitalplus.com ",
+    "image": "http://demo2.themewarrior.com/hospitalplus/wp-content/uploads/sites/22/2015/02/Depositphotos_25727021_original-400x400.jpg"
+  },
+  {
+    "id": 2,
+    "name": " Dr.Janne Wilson",
+    "Specialization": "Orthopedic Medicine",
+    "Profile": "Veranda was born and raised in Jakarta, Indonesia. He graduated from the University of Singapore, where he completed is bachelor’s degree. His admission to the State Bar of California took place on the 25th of November, 1985.",
+    "email": "  veranda@hospitalplus.com ",
+    "image": "http://demo2.themewarrior.com/hospitalplus/wp-content/uploads/sites/22/2015/02/Depositphotos_13909652_original-400x400.jpg"
+  },
+  {
+    "id": 3,
+    "name": " Dr. Adaline Becka",
+    "Specialization": " Medicine",
+    "Profile": "Veranda was born and raised in Jakarta, Indonesia. He graduated from the University of Singapore, where he completed is bachelor’s degree. His admission to the State Bar of California took place on the 25th of November, 1985.",
+    "email": "  veranda@hospitalplus.com ",
+    "image": "http://demo2.themewarrior.com/hospitalplus/wp-content/uploads/sites/22/2015/02/Depositphotos_24201329_original-400x400.jpg"
+  },
+  {
+    "id": 4,
+    "name": " Dr. Alicia Homes",
+    "Specialization": "Neorology",
+    "profile": "Veranda was born and raised in Jakarta, Indonesia. He graduated from the University of Singapore, where he completed is bachelor’s degree. His admission to the State Bar of California took place on the 25th of November, 1985.",
+    "email": "  veranda@hospitalplus.com ",
+    "image": "http://demo2.themewarrior.com/hospitalplus/wp-content/uploads/sites/22/2015/02/Depositphotos_60575315_original-400x400.jpg"
+  },
 
-    {
-        "id": 5,
-        "name": " Dr. Lisa Sanders",
-        "Specialization": "Urology",
-        "Profile":"Veranda was born and raised in Jakarta, Indonesia. He graduated from the University of Singapore, where he completed is bachelor’s degree. His admission to the State Bar of California took place on the 25th of November, 1985.",
-     
-        "email": "  veranda@hospitalplus.com ",
-        "image":"http://demo2.themewarrior.com/hospitalplus/wp-content/uploads/sites/22/2016/04/Pediatric-Doctors-400x400.jpg"
-    }, 
-    {
-        "id": 6,
-        "name": " Dr. Hamed Ajmal",
-        "Profile":"Veranda was born and raised in Jakarta, Indonesia. He graduated from the University of Singapore, where he completed is bachelor’s degree. His admission to the State Bar of California took place on the 25th of November, 1985.",
-        "Specialization": "Cardiology",
-       
-         "email": "  veranda@hospitalplus.com ",
-         "image":"http://demo2.themewarrior.com/hospitalplus/wp-content/uploads/sites/22/2015/01/Depositphotos_79545310_original-400x400.jpg"
-    }
+  {
+    "id": 5,
+    "name": " Dr. Lisa Sanders",
+    "Specialization": "Urology",
+    "Profile": "Veranda was born and raised in Jakarta, Indonesia. He graduated from the University of Singapore, where he completed is bachelor’s degree. His admission to the State Bar of California took place on the 25th of November, 1985.",
+
+    "email": "  veranda@hospitalplus.com ",
+    "image": "http://demo2.themewarrior.com/hospitalplus/wp-content/uploads/sites/22/2016/04/Pediatric-Doctors-400x400.jpg"
+  },
+  {
+    "id": 6,
+    "name": " Dr. Hamed Ajmal",
+    "Profile": "Veranda was born and raised in Jakarta, Indonesia. He graduated from the University of Singapore, where he completed is bachelor’s degree. His admission to the State Bar of California took place on the 25th of November, 1985.",
+    "Specialization": "Cardiology",
+
+    "email": "  veranda@hospitalplus.com ",
+    "image": "http://demo2.themewarrior.com/hospitalplus/wp-content/uploads/sites/22/2015/01/Depositphotos_79545310_original-400x400.jpg"
+  }
 ]
