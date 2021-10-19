@@ -8,6 +8,8 @@ import Error from "./Pages/Error/Error";
 import Centers from "./Pages/Centers/Centers";
 import Header from "./Pages/Home/Header/Header";
 import Booking from "./Pages/Booking/Booking/Booking";
+import Login from "./Pages/Login/Login/Login";
+import Register from "./Pages/Register/Register";
 
 function App() {
   return (
@@ -24,6 +26,12 @@ function App() {
            
           <Route  path="/centers">
             <Centers></Centers>
+          </Route>
+          <Route  path="/login">
+          <Login></Login>
+          </Route>
+          <Route  path="/register">
+          <Register></Register>
           </Route>
           <Route  path="/booking/:serviceId">
            <Booking></Booking>
