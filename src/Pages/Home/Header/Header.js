@@ -29,7 +29,7 @@ const Header = () => {
             Care Centers
           </Nav.Link>
         {  user.email?(
-          <button onClick={logOut} className="btn-regular">LogOut</button>
+          <button onClick={logOut} className=" btn btn-regular">LogOut</button>
         ):(
          <Nav.Link as={Link} to ="/login">
             Log In

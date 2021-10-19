@@ -31,6 +31,8 @@ const Register = () => {
                <br />
                <input type="password" name="" id=""placeholder="re-enter password" />
              <br />
+             
+    
            <input type="submit" value="submit" />
            <br />
            <button></button>
