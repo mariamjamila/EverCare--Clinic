@@ -33,13 +33,13 @@ const Register = () => {
              <br />
              
     
-           <input type="submit" value="submit" />
+           <button className="btn btn-warning" type="submit" value="submit">Submit</button>
            <br />
-           <button></button>
+          
            </form>
            <p>Already have an account? <Link to = "/login">Log In</Link>  </p>
            <div>----------------------------or-------------------------------</div>
-           <button onClick={signInWithGoogle} className="btn-warning">Google Sign In</button>
+           <button onClick={signInWithGoogle} className="btn btn-warning">Google Sign In</button>
 
         </div>
         </div>

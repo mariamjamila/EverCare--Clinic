@@ -41,14 +41,14 @@ const Login = () => {
           placeholder="password"
         />
         <br />
-        <button onClick={handleLogin} className="btn btn-primary">
+        <button onClick={handleLogin} className="btn btn-warning">
           Submit
         </button>
         <p>
           New to Ever Care ? <Link to="/register"> Register</Link>{" "}
         </p>
-        <div>-----------------or--------------------------</div>
-        <button onClick={signInWithGoogle} className="btn-warning">
+        <div>-----------------or-----------------</div>
+        <button onClick={signInWithGoogle} className="btn btn-warning">
           Google Sign In
         </button>
       </div>

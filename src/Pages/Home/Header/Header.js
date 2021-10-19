@@ -5,14 +5,13 @@ import useAuth from "../../../hooks/UseAuth";
 import useFirebase from "../../../hooks/useFirebase";
 import "./Header.css";
 const Header = () => {
-  const {user, logOut } = useAuth();
+  const { user, logOut } = useAuth();
   return (
     <>
       <Navbar
         collapseOnSelect
         expand="lg"
-        bg="primary"
-        variant="dark"
+        bg="light"
         sticky="top"
       >
         <Container>
@@ -22,26 +21,33 @@ const Header = () => {
           <Nav.Link as={Link} to="/">
             Home
           </Nav.Link>
+          <Nav.Link as={Link} to="/About">
+            About
+          </Nav.Link>
           <Nav.Link as={Link} to="/#services">
             Services
           </Nav.Link>
-          <Nav.Link as={Link} to ="/centers">
+          <Nav.Link as={Link} to="/centers">
             Care Centers
           </Nav.Link>
-        {  user.email?(
-          <button onClick={logOut} className=" btn btn-regular">LogOut</button>
-        ):(
-         <Nav.Link as={Link} to ="/login">
-            Log In
-          </Nav.Link>)}
           <Navbar.Toggle />
           <Navbar.Collapse className="justify-content-end">
-            <Navbar.Text>
+            {user.email ? (
+              <>
+              <Navbar.Text>
               Signed in as: <a href="#login">{user?.displayName}</a>
-            </Navbar.Text>
-            
+              </Navbar.Text>
+              <button onClick={logOut} className=" btn btn-regular">
+                Log Out
+              </button>
+              </>
+            ) : (
+              <Nav.Link as={Link} to="/login">
+                Log In
+              </Nav.Link>
+            )}
+          
           </Navbar.Collapse>
-          <Nav className="me-auto"></Nav>
         </Container>
       </Navbar>
     </>

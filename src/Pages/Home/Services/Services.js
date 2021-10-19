@@ -11,7 +11,7 @@ const Services = () => {
     },[])
    console.log(services);
     return (
-        <div className="service-container">
+        <div id="services" className="service-container">
             {
                 services?.map(service=><Service
                    key= {service.id}
