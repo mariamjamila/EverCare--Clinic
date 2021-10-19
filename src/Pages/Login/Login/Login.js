@@ -1,10 +1,11 @@
 import userEvent from '@testing-library/user-event';
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import useFirebase from '../../../hooks/useFirebase';
+import useAuth from '../../../hooks/UseAuth';
+
 
 const Login = () => {
-   const  { user, signInWithGoogle,handleUserLogin} = useFirebase();
+   const  { user, signInWithGoogle,handleUserLogin} = useAuth();
    const[email, setEmail]= useState("");
  const [password, setPassword] =useState("");
 

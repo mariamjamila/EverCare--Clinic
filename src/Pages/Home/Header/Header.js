@@ -1,10 +1,11 @@
 import React from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import useAuth from "../../../hooks/UseAuth";
 import useFirebase from "../../../hooks/useFirebase";
 import "./Header.css";
 const Header = () => {
-  const {user, logOut } = useFirebase();
+  const {user, logOut } = useAuth();
   return (
     <>
       <Navbar
@@ -36,7 +37,7 @@ const Header = () => {
           <Navbar.Toggle />
           <Navbar.Collapse className="justify-content-end">
             <Navbar.Text>
-              Signed in as: <a href="#login">{user.email}</a>
+              Signed in as: <a href="#login">{user?.displayName}</a>
             </Navbar.Text>
             
           </Navbar.Collapse>

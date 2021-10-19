@@ -10,11 +10,14 @@ import Header from "./Pages/Home/Header/Header";
 import Booking from "./Pages/Booking/Booking/Booking";
 import Login from "./Pages/Login/Login/Login";
 import Register from "./Pages/Register/Register";
+import AuthProvider from "./context/AuthProvider";
+import PrivateRoute from "./Pages/Login/PrivateRoute/PrivateRoute";
 
 function App() {
   return (
     <div className="App">
-      <Router>
+     <AuthProvider>
+     <Router>
         <Header></Header>
         <Switch>
           <Route exact path="/">
@@ -33,15 +36,16 @@ function App() {
           <Route  path="/register">
           <Register></Register>
           </Route>
-          <Route  path="/booking/:serviceId">
+          <PrivateRoute  path="/booking/:serviceId">
            <Booking></Booking>
-          </Route>
+          </PrivateRoute>
           <Route path="*">
             <Error></Error>
           </Route>
         </Switch>
         <Footer></Footer>
       </Router>
+     </AuthProvider>
     </div>
   );
 }
