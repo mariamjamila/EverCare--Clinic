@@ -2,7 +2,8 @@ import userEvent from "@testing-library/user-event";
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import useAuth from "../../../hooks/UseAuth";
-
+import  pic from "../../../images/flower.jpg"
+import "./Login.css";
 const Login = () => {
   const { user, signInWithGoogle, handleUserLogin } = useAuth();
   const [email, setEmail] = useState("");
@@ -20,25 +21,41 @@ const Login = () => {
   };
 
   return (
-    <div>
-      <div>
+    <div
+      style={{
+        gap: "50px",
+        maxWidth: "800px",
+        display: "grid",
+        margin: "0 auto",
+        gridTemplateColumns: "1fr 1fr",
+        color:"#606060",
+        height:"600px",
+        marginTop:"50px"
+      }}
+    >
+      <div className="" style={{overflow:"hidden"}}>
+         <img src={pic} alt="" />
+      </div>
+      <div className="login-box p-3">
         <h2>Please Log In</h2>
 
         <input
+          className="form-control"
           onBlur={handleEmailChange}
           type="email"
           name=""
           id=""
-          placeholder="Your Email"
+          placeholder="Email"
         />
         <br />
 
         <input
+          className="form-control"
           onBlur={handlePasswordChange}
           type="password"
           name=""
           id=""
-          placeholder="password"
+          placeholder="Password"
         />
         <br />
         <button onClick={handleLogin} className="btn btn-warning">

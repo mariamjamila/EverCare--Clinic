@@ -6,6 +6,7 @@ import {
   GoogleAuthProvider,
   createUserWithEmailAndPassword,
   signInWithEmailAndPassword,
+  updateProfile
 } from "firebase/auth";
 import { useEffect, useState } from "react";
 import initializeAuthentication from "../Firebase/firebase.init";
@@ -53,6 +54,12 @@ const useFirebase = () => {
     signInWithEmailAndPassword(auth, email, password)
       .then((result) => {
         console.log(result.user);
+        updateProfile(auth,result.user, {
+          displayName: {user}
+        }).then(() => {
+          // Profile updated!
+          // ...
+        })
         setError("");
       })
       .catch((error) => {
