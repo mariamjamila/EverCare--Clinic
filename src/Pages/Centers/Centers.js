@@ -45,7 +45,7 @@ const centers = [
 const Centers = () => {
     return (
         <div id="centers">
-            <h2>Our Experts</h2>
+            <h4>Our Services</h4>
             <div className="row">
            {
             centers.map(center=><Center

@@ -11,8 +11,10 @@ function Home() {
         <div id="home">
           <Banner></Banner>
           <h2>Welcome To Ever Care</h2>
+          <h4>Our Experts</h4>
          <Services></Services>
-           
+         
+         <Centers></Centers>
         </div>
     );
 }
