@@ -58,6 +58,7 @@ const Login = () => {
           placeholder="Password"
         />
         <br />
+       
         <button onClick={handleLogin} className="btn btn-warning">
           Submit
         </button>
@@ -68,6 +69,7 @@ const Login = () => {
         <button onClick={signInWithGoogle} className="btn btn-warning">
           Google Sign In
         </button>
+        
       </div>
     </div>
   );
