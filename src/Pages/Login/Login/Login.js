@@ -5,7 +5,7 @@ import useAuth from "../../../hooks/UseAuth";
 import  pic from "../../../images/flower.jpg"
 import "./Login.css";
 const Login = () => {
-  const { user, signInWithGoogle, handleUserLogin } = useAuth();
+  const { user, signInWithGoogle, handleUserLogin,error } = useAuth();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
@@ -58,7 +58,7 @@ const Login = () => {
           placeholder="Password"
         />
         <br />
-       
+       <div className="text-danger ">{error}</div>
         <button onClick={handleLogin} className="btn btn-warning">
           Submit
         </button>

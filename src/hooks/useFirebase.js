@@ -44,17 +44,20 @@ const useFirebase = () => {
   const handleUserRegister = (email, password) => {
     createUserWithEmailAndPassword(auth, email, password)
       .then((result) => {
-        console.log(result.user);
+        const user =result.user;
+        console.log(user);
+        setError('');
       })
       .catch((error) => {
-        console.log(error.message);
+             setError(error.message);
       });
   };
   const handleUserLogin = (email, password) => {
     signInWithEmailAndPassword(auth, email, password)
       .then((result) => {
-        console.log(result.user);
-        updateProfile(auth,result.user, {
+       const user =result.user;
+       console.log(user);
+        updateProfile(auth,user, {
           displayName: {user}
         }).then(() => {
           // Profile updated!
@@ -63,8 +66,8 @@ const useFirebase = () => {
         setError("");
       })
       .catch((error) => {
-        setError(error.message);
         console.log(error.message);
+        setError(error.message);
       });
   };
 
@@ -73,7 +76,7 @@ const useFirebase = () => {
     signInWithGoogle,
     logOut,
     handleUserRegister,
-    handleUserLogin,
+    handleUserLogin, error
   };
 };
 
